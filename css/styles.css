@@ -1,0 +1,345 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Sections */
+
+.section-colored {
+    color: white;
+}
+
+.section-white {
+    background-color: white;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Title */
+
+#title {
+    background-color: #FF4C68;
+    position: relative;
+    text-align: left;
+    z-index: 2;
+}
+
+.container-title {
+    padding: 3% 17%;
+}
+
+.col-title {
+    padding-bottom: 3rem;
+}
+
+/* Navbar */
+
+.navbar-container-title {
+    padding: 0;
+}
+
+.navbar-title {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.paw-to-tindog {
+    transform: rotate(180deg);
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.button-download-title {
+    margin: 5% 5% 5% 0;
+}
+
+.icon-apple-title {
+    font-size: 1.6rem;
+}
+
+.image-mockup {
+    transform: rotate(15deg);
+    width: 21.25rem;
+}
+
+@media (max-width: 991px) {
+    .col-title {
+        text-align: center;
+    }
+
+    .button-download-title {
+        margin: 5% 2%;
+    }
+
+    .image-mockup {
+        transform: rotate(0);
+    }
+}
+
+/* Scroll to Top */
+
+.scroll-to-top {
+    font-size: 2rem;
+    position: fixed;
+    z-index: 1;
+    right: 4rem;
+    bottom: 3rem;
+}
+
+.btn-check:focus + .btn-outline-dark, .btn-outline-dark:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.btn-check:checked + .btn-outline-dark:focus, .btn-check:active + .btn-outline-dark:focus, .btn-outline-dark:active:focus, .btn-outline-dark.active:focus, .btn-outline-dark.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 0;
+}
+
+/* Features */
+
+.container-features {
+    padding: 9% 17%;
+}
+
+.col-features {
+    padding: 9% 6.5%;
+}
+
+.icon-features {
+    color: #EF8172;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.icon-features:hover {
+    color: #FF4C68;
+}
+
+.h3-features {
+    margin-bottom: 1rem;
+}
+
+.p-features,
+.p-pricing,
+.p-footer {
+    color: #8F8F8F;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #EF8172;
+}
+
+.container-testimonials {
+    padding: 9% 0;
+}
+
+.carousel-item {
+    padding: 0 19%;
+}
+
+.image-testimonials {
+    border-radius: 100%;
+    margin: 2rem 0;
+    height: 12.5rem;;
+    width: 12.5rem;
+}
+
+.p-testimonials {
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1905px) {
+    .carousel-item {
+        min-height: 30.8rem;
+    }
+}
+
+@media (max-width: 1319px) {
+    .carousel-item {
+        min-height: 34.4rem;
+    }
+}
+
+@media (max-width: 1021px) {
+    .carousel-item {
+        min-height: 38rem;
+    }
+}
+
+@media (max-width: 771px) {
+    .carousel-item {
+        min-height: 41.6rem;
+    }
+}
+
+@media (max-width: 681px) {
+    .carousel-item {
+        min-height: 45.2rem;
+    }
+}
+
+@media (max-width: 625px) {
+    .carousel-item {
+        min-height: 48.8rem;
+    }
+}
+
+@media (max-width: 573px) {
+    .carousel-item {
+        min-height: 52.4rem;
+    }
+}
+
+@media (max-width: 516px) {
+    .carousel-item {
+        min-height: 56rem;
+    }
+}
+
+/* Press */
+
+#press {
+    background-color: #EF8172;
+}
+
+.container-press {
+    padding: 0 17% 3%;
+}
+
+.col-press {
+    padding-bottom: 9%;
+}
+
+.images-press {
+    width: 60%;
+    margin: 0 1.5rem;
+}
+
+/* Pricing */
+
+#pricing {
+}
+
+.container-pricing {
+    padding: 9% 17%;
+}
+
+.col-pricing {
+    padding: 3% 2%;
+}
+
+.card {
+    border-color: #EF8172;
+}
+
+.card-header-pricing {
+    background-color: white;
+    border-color: #EF8172;
+    color: #EF8172;
+    font-size: 2rem;
+}
+
+.p-price-tag {
+    font-size: 2.5rem;
+}
+
+.card-footer-pricing {
+    background-color: #EF8172;
+    border: none;
+    font-size: 1.25rem;
+    margin: -1px;
+}
+
+.card-footer-pricing:hover {
+    background-color: #FF4C68;
+}
+
+@media (max-width: 1072px) and (min-width: 992px) {
+    .container-pricing {
+        padding: 9% 12%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 500px) {
+    .col-pricing {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+}
+
+/* CTA */
+
+#cta {
+    background-color: #FF4C68;
+}
+
+.container-cta {
+    padding: 9% 21%;
+}
+
+.button-download-cta {
+    font-size: 1.5rem;
+    margin: 5% 1rem;
+}
+
+.icon-apple-cta {
+    font-size: 1.8rem;
+}
+
+@media (max-width: 1171px) {
+    .container-cta {
+        padding: 9% 17%;
+    }
+}
+
+/* Footer */
+
+.container-footer {
+    padding: 5% 17%;
+}
+
+.icon-footer {
+    font-size: 2rem;
+    padding: 0 1% 2%;
+}
+
+.icon-footer:hover {
+    color: #FF4C68;
+    font-size: 2rem;
+    padding: 0 1% 2%;
+}
+
+.p-footer {
+    margin-bottom: 0;
+}
