@@ -346,6 +346,10 @@ h3 {
 
 @media (max-width: 991px) {
 
+    p {
+        font-size: 1.2rem;
+    }
+    
     .icon-footer {
         padding: 0 2% 3%;
     }
@@ -355,10 +359,6 @@ h3 {
 /* Mobile */
 
 @media (max-width: 575px) {
-
-    p {
-        font-size: 1.2rem;
-    }
 
     .icon-footer {
         padding: 0 5% 5%;
