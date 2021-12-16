@@ -51,7 +51,7 @@ h3 {
 
 /* Navbar */
 
-.navbar-container-title {
+.container-navbar-title {
     padding: 0;
 }
 
@@ -70,7 +70,7 @@ h3 {
 }
 
 .nav-item {
-    padding: 0 10px;
+    padding: 0 0.625rem;
 }
 
 .nav-link {
@@ -336,10 +336,32 @@ h3 {
 
 .icon-footer:hover {
     color: #FF4C68;
-    font-size: 2rem;
-    padding: 0 1% 2%;
 }
 
 .p-footer {
     margin-bottom: 0;
+}
+
+/* Tablet */
+
+@media (max-width: 991px) {
+
+    .icon-footer {
+        padding: 0 2% 3%;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width: 575px) {
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .icon-footer {
+        padding: 0 5% 5%;
+    }
+
 }
